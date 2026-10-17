@@ -1,0 +1,27 @@
+{
+  "name": "hotel-dik",
+  "version": "2.0.0",
+  "description": "Hotel Dik — Premium Smart Hotel Management System (MERN Stack)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "seed": "node server/seed.js"
+  },
+  "keywords": [
+    "hotel",
+    "management",
+    "mern",
+    "restaurant"
+  ],
+  "author": "Hotel Dik Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.2"
+  }
+}
